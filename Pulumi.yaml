@@ -1,0 +1,11 @@
+name: pulumi-gcp-static-website
+runtime:
+  name: python
+  options:
+    toolchain: poetry
+    typechecker: pyright
+description: Static website hosted on Google Cloud Storage
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: python
