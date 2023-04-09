@@ -1,0 +1,4 @@
+name: pulumi-gcp-static-website
+description: Static website hosted on Google Cloud Storage
+runtime:
+  name: python
